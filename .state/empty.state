@@ -1,0 +1,17 @@
+{
+  "Cwd": ".",
+  "Argv": [
+    "/home/favio/anaconda3/bin/dvc",
+    "init"
+  ],
+  "Stdout": null,
+  "Type": "DVC-State",
+  "Version": "0.1",
+  "Command": "empty",
+  "Stderr": null,
+  "CreatedAt": "2017-05-31 22:54:17 -0500",
+  "InputFiles": [],
+  "CodeDependencies": [],
+  "OutputFiles": [],
+  "Shell": false
+}
