@@ -1,0 +1,29 @@
+{
+  "CodeDependencies": [
+    "code/split_train_test.py"
+  ],
+  "Version": "0.1",
+  "Stderr": null,
+  "CreatedAt": "2017-05-31 23:03:04 -0500",
+  "Argv": [
+    "python",
+    "code/split_train_test.py",
+    "data/Posts.tsv",
+    "0.33",
+    "20170426",
+    "data/Posts-train.tsv",
+    "data/Posts-test.tsv"
+  ],
+  "OutputFiles": [
+    "data/Posts-train.tsv",
+    "data/Posts-test.tsv"
+  ],
+  "InputFiles": [
+    "data/Posts.tsv"
+  ],
+  "Shell": false,
+  "Cwd": ".",
+  "Stdout": null,
+  "Type": "DVC-State",
+  "Command": "run"
+}
