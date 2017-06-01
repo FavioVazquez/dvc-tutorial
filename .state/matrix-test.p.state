@@ -1,18 +1,17 @@
 {
-  "Command": "run",
-  "Type": "DVC-State",
-  "Version": "0.1",
-  "Stderr": null,
-  "Shell": false,
-  "CodeDependencies": [
-    "code/featurization.py"
-  ],
   "InputFiles": [
     "data/Posts-train.tsv",
     "data/Posts-test.tsv"
   ],
+  "Stderr": null,
+  "Type": "DVC-State",
+  "OutputFiles": [
+    "data/matrix-test.p",
+    "data/matrix-train.p"
+  ],
   "Cwd": ".",
-  "CreatedAt": "2017-05-31 23:04:22 -0500",
+  "Shell": false,
+  "Stdout": null,
   "Argv": [
     "python",
     "code/featurization.py",
@@ -21,9 +20,10 @@
     "data/matrix-train.p",
     "data/matrix-test.p"
   ],
-  "OutputFiles": [
-    "data/matrix-test.p",
-    "data/matrix-train.p"
+  "Version": "0.1",
+  "CodeDependencies": [
+    "code/featurization.py"
   ],
-  "Stdout": null
+  "Command": "run",
+  "CreatedAt": "2017-05-31 23:16:41 -0500"
 }
