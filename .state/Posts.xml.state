@@ -1,0 +1,24 @@
+{
+  "Shell": false,
+  "Type": "DVC-State",
+  "InputFiles": [
+    "data/Posts.xml.tgz"
+  ],
+  "Stdout": null,
+  "Argv": [
+    "tar",
+    "zxf",
+    "data/Posts.xml.tgz",
+    "-C",
+    "data"
+  ],
+  "Command": "run",
+  "Stderr": null,
+  "CodeDependencies": [],
+  "Version": "0.1",
+  "Cwd": ".",
+  "CreatedAt": "2017-05-31 22:56:08 -0500",
+  "OutputFiles": [
+    "data/Posts.xml"
+  ]
+}
