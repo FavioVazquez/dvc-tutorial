@@ -1,0 +1,19 @@
+{
+  "CodeDependencies": [],
+  "Stderr": null,
+  "Cwd": ".",
+  "OutputFiles": [
+    "data/Posts.xml.tgz"
+  ],
+  "Argv": [
+    "https://s3-us-west-2.amazonaws.com/dvc-share/so/25K/Posts.xml.tgz",
+    "data/Posts.xml.tgz"
+  ],
+  "Command": "import-file",
+  "Stdout": null,
+  "Type": "DVC-State",
+  "InputFiles": [],
+  "Version": "0.1",
+  "Shell": false,
+  "CreatedAt": "2017-05-31 22:55:42 -0500"
+}
