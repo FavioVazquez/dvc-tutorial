@@ -3,10 +3,14 @@
     "data/matrix-test.p",
     "data/model.p"
   ],
-  "Command": "run",
-  "CodeDependencies": [
-    "code/evaluate.py"
+  "Stderr": null,
+  "Type": "DVC-State",
+  "OutputFiles": [
+    "data/evaluation.txt"
   ],
+  "Cwd": ".",
+  "Shell": false,
+  "Stdout": null,
   "Argv": [
     "python",
     "code/evaluate.py",
@@ -14,14 +18,10 @@
     "data/matrix-test.p",
     "data/evaluation.txt"
   ],
-  "Shell": false,
-  "OutputFiles": [
-    "data/evaluation.txt"
-  ],
-  "Stdout": null,
-  "CreatedAt": "2017-05-31 23:06:20 -0500",
-  "Type": "DVC-State",
-  "Cwd": ".",
   "Version": "0.1",
-  "Stderr": null
+  "CodeDependencies": [
+    "code/evaluate.py"
+  ],
+  "Command": "run",
+  "CreatedAt": "2017-05-31 23:16:41 -0500"
 }
