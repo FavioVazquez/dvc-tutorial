@@ -1,0 +1,26 @@
+{
+  "CreatedAt": "2017-05-31 22:57:17 -0500",
+  "OutputFiles": [
+    "data/Posts.tsv"
+  ],
+  "Stdout": null,
+  "Argv": [
+    "python",
+    "code/xml_to_tsv.py",
+    "data/Posts.xml",
+    "data/Posts.tsv",
+    "python"
+  ],
+  "InputFiles": [
+    "data/Posts.xml"
+  ],
+  "CodeDependencies": [
+    "code/xml_to_tsv.py"
+  ],
+  "Type": "DVC-State",
+  "Cwd": ".",
+  "Version": "0.1",
+  "Shell": false,
+  "Stderr": null,
+  "Command": "run"
+}
